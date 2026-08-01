@@ -30,11 +30,18 @@ Key Insights: Created heatmaps and pricing models to help real estate developers
 Tech Used: Power BI, Advanced Excel, Data Modeling.
 
 
-3. [BigBasket Price & Category Analysis - Power BI]
-Objective: Analyzed FMCG/E-commerce retail data from BigBasket to track price distributions and discount patterns across categories.
-Key Insights: Discovered pricing strategies where beauty and gourmet products yielded 25% higher margins compared to staples.
-Tech Used: Power BI, Data Wrangling, Dashboard Design.
+3. India Road Accidents Analysis Dashboard
 
+An end-to-end interactive **Power BI dashboard** analyzing 20,000+ road accident records across India to uncover critical safety patterns and support data-driven policy decisions.
+
+Project Overview
+Road accidents remain one of India's most pressing public safety concerns. This project transforms raw accident data into actionable insights through a fully interactive Power BI dashboard — covering the entire analytics pipeline from ETL to visualization.
+
+Objectives
+- Identify high-risk states, cities, and time periods for road accidents
+- Analyze root causes and severity patterns  
+- Build interactive KPIs for quick executive-level decision making
+- Provide self-service filtering by state, severity, and time period
 
 
 
