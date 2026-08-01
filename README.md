@@ -14,7 +14,7 @@ Database Management: SQL (Joins, CTEs, Window Functions)
 
  Projects Directory
 
-### 1. [Tata Group Virtual Experience - Power BI]
+### 1. Tata Group Virtual Experience - Power BI
 Objective: Developed an interactive dashboard for Tata business leaders to analyze global revenue and market performance.
 Key Insights: Identified top-performing regions and optimized inventory decisions based on seasonal purchase patterns.
 Tech Used: Power Query (Data Cleaning), DAX (Calculated Metrics), Power BI.
@@ -23,7 +23,7 @@ Tech Used: Power Query (Data Cleaning), DAX (Calculated Metrics), Power BI.
 
 
 
-### 2. [Real Estate & House Prices Analysis - Power BI]
+### 2. Real Estate & House Prices Analysis - Power BI
 
 Objective: Analyzed housing market datasets to identify key drivers of property valuation (location, square footage, amenities).
 Key Insights: Created heatmaps and pricing models to help real estate developers identify undervalued micro-markets.
