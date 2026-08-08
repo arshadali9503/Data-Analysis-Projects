@@ -28,6 +28,45 @@ Tech Used: Power Query (Data Cleaning), DAX (Calculated Metrics), Power BI.
 Objective: Analyzed housing market datasets to identify key drivers of property valuation (location, square footage, amenities).
 Key Insights: Created heatmaps and pricing models to help real estate developers identify undervalued micro-markets.
 Tech Used: Power BI, Advanced Excel, Data Modeling.
+ And also using same dataset. 
+An end-to-end SQL project analyzing **20,000+ residential property listings** across 5 major Indian cities — Chennai, Bangalore, Delhi, Kolkata, and Hyderabad — to uncover pricing trends, BHK distribution, and the impact of amenities on property value.
+
+
+
+Objective
+To design a relational database and derive **data-driven insights** on price variation, locality trends, and amenity influence — supporting real estate investment and market entry decisions.
+
+
+ Tech Stack
+- **Database:** MySQL 8.0  
+- **Tool:** MySQL Workbench  
+- **Data Source:** 5 city-wise CSV files (20,000+ rows)
+
+
+ Dataset Overview
+- **22 raw features** per property (price, area, location, BHK, 16 amenities, resale status)  
+- **4 derived features** engineered via SQL:
+  - `price_per_sqft`
+  - `bhk_type`
+  - `amenity_score` (sum of 16 amenities)
+  - `price_category` (Low / Mid / Premium / Luxury)
+
+
+Project Workflow
+1. **Schema Design** — Created normalized `properties` table with 26 columns  
+2. **Data Import** — Loaded 5 CSVs via MySQL Import Wizard, tagged city via `UPDATE`  
+3. **Feature Engineering** — Used `ALTER TABLE`, `CASE`, `NULLIF`, arithmetic aggregation  
+4. **Analysis** — Ran aggregate, CTE, and CASE-based queries for insights  
+
+
+ Key SQL Concepts Used
+- `GROUP BY`, `HAVING`, aggregate functions (`AVG`, `MIN`, `MAX`, `COUNT`)  
+- **CTEs** (`WITH` clause) for amenity impact analysis  
+- `CASE WHEN` for business logic segmentation  
+- `ALTER TABLE`, `UPDATE`, `NULLIF` for feature engineering  
+- Multi-level grouping and ordering with `FIELD()`
+
+
 
 
 ### 3. India Road Accidents Analysis Dashboard
